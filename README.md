@@ -1,75 +1,99 @@
-🚀 Estudos de Node.js – Rocketseat
+🚀 Node Fundamentals – Rocketseat
 
-Este repositório reúne meus estudos e práticas do módulo de Node.js da trilha Full Stack da Rocketseat.
-Aqui eu registro meus aprendizados, exercícios, código de APIs e conceitos fundamentais do backend com JavaScript.
+📝 Descrição
 
-A ideia é evoluir parte por parte, construindo uma base sólida para atuar como desenvolvedor full stack.
+Este repositório reúne minha evolução no módulo de fundamentos do Node.js da Rocketseat.
+Aqui eu construo uma API do zero — sem frameworks — para aprender literalmente o coração do Node: como ele funciona, como tratar requisições, como criar middlewares, como organizar rotas e como construir um servidor na mão.
 
-📚 O que estou estudando
+A ideia é simples: entender de verdade o que acontece antes de usar Express, Fastify e outras ferramentas mais avançadas.
+
+
+✨ O que tem aqui
+
+🌐 API feita com Node puro
+
+🧩 Middlewares criados na unha
+
+🔎 Manipulação de query params, route params e JSON body
+
+🏗️ Estrutura de projeto organizada — estilo “vida real”
+
+📚 Código pensado para reforçar lógica e fundamentos
+
+📚 O que estou aprendendo
+
+Aqui eu anoto exatamente os conceitos que estou fixando (do jeito que eu realmente estou estudando):
+
 🔹 Fundamentos do Node.js
 
-Como o Node funciona por baixo dos panos (event loop, single thread, etc.)
+Event loop em prática
 
-Módulos
+Sistema de módulos
 
-HTTP básico
+Criação de servidor HTTP sem dependências
 
-Conceitos essenciais para APIs
+Tratamento manual de requests/responses
 
-🔥 API – Módulo 01
+🔹 Construção de APIs
 
-Aqui fica o conteúdo prático: minha primeira API "na mão", sem frameworks.
+Design de rotas
 
-Conceitos praticados até agora:
+Middlewares personalizados
 
-Criar um servidor HTTP com Node puro
+Parsing de JSON
 
-Rotas GET, POST, PUT, DELETE
+Normalização de rotas com utils
 
-Middlewares manuais
+Organização de pastas que escala
 
-Manipulação de JSON
+🔹 Boas práticas
 
-Tratamento de query params, route params e body
+Commits claros
 
-Organização de projeto (src/, middlewares/, utils/, etc.)
+Código limpo
 
-📁 Estrutura do projeto
-src/
- ├─ middlewares/
- │   ├─ jsonBodyHandler.js
- │   └─ routeHandler.js
- ├─ routes.js
- ├─ server.js
- └─ utils/
-     ├─ extract-query-params.js
-     └─ parseRoutePath.js
+Arquitetura simples e lógica
 
-README.md
-package.json
-.gitkeep
+Estrutura pensada para crescer futuramente
 
-🧠 Objetivo deste repositório
+📁 Estrutura do Projeto
+modulo-01-fundamentos
+└── api
+    ├── package.json
+    └── src
+        ├── middlewares
+        │   ├── jsonBodyHandler.js
+        │   └── routeHandler.js
+        ├── routes.js
+        ├── server.js
+        └── utils
+            ├── extract-query-params.js
+            └── parseRoutePath.js
 
-Este repositório não é só para guardar código — é pra acompanhar minha evolução, praticar lógica, aprender API de verdade e me preparar para trabalhar como desenvolvedor backend/front-end com segurança.
-
-🚀 Próximos passos
-
-Criar pequenos projetos usando o que aprendi
-
-Evoluir para Fastify/Express
-
-Implementar testes
-
-Criar APIs completas com banco de dados
-
-Documentar tudo
-
-📝 Como rodar o projeto
+🚀 Como rodar
 npm install
 npm run dev
 
 
-Servidor será iniciado em:
-
+Servidor disponível em:
 http://localhost:3333
+
+👥 Contribuições
+
+Fique à vontade para contribuir — toda ajuda é bem-vinda.
+
+Faça um fork
+
+Clone seu fork
+
+Crie sua branch
+
+Faça suas alterações
+
+Commit ❤️
+
+Abra um pull request
+
+📜 Licença
+
+Este projeto está sob a licença ISC.
