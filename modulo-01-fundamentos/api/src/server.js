@@ -1,5 +1,5 @@
 import http from 'node:http';
-import {jsonBodyHandler } from './middlewares/jsonBodyHandler.js';
+import { jsonBodyHandler } from './middlewares/jsonBodyHandler.js';
 import { routeHandler } from './middlewares/routeHandler.js';
 
 const server = http.createServer(async (request, response) => {
